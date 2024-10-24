@@ -35,7 +35,7 @@ function Footer( ) {
                         <li key={item.id}>
                          <div className="image">
                           <a href="properties-detail.html"
-                            ><img src="http://placehold.it/760x670" alt=""
+                            ><img src="https://placehold.it/760x670" alt=""
                           /></a>
                          </div>
                          <p><a href="#">{item.name}</a></p>
@@ -51,7 +51,7 @@ function Footer( ) {
                         <li key={item.id}>
                          <div className="image">
                           <a href="properties-detail.html"
-                            ><img src="http://placehold.it/760x670" alt=""
+                            ><img src="https://placehold.it/760x670" alt=""
                           /></a>
                          </div>
                          <p><a href="#">{item.name}</a></p>

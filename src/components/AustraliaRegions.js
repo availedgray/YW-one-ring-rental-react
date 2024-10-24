@@ -16,7 +16,7 @@ function AustraliaRegions (){
                                 <h3>{item.city}</h3>
                                 <span className="location">{item.state}</span>
                               </a>
-                              <img src="http://placehold.it/760x670" alt="" />
+                              <img src="https://placehold.it/760x670" alt="" />
                             </div>
                           </div>
                         )

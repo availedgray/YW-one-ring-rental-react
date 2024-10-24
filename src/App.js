@@ -16,16 +16,52 @@ const App = () =>{
     return (
         <Router>
             <div id="wrapper">
-                <Header />  
-             
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route path="/" element={
+                        <>
+                            <Header />
+                            <Home />
+                            <Footer />
+                        </>
+                    } />
+                </Routes>
+
+                <Routes>
+                    <Route path="/regions" element={
+                        <>
+                            <Header />
+                            <Regions />
+                            <Footer />
+                        </>
+                    } />
+                </Routes>
+
+                <Routes>
+                    <Route path="/contact" element={
+                        <>
+                            <Header />
+                            <Contact />
+                            <Footer />
+                        </>
+                    } />
+                </Routes>
+
+                <Routes>
+                    <Route path="/news" element={
+                        <>
+                            <Header />
+                            <News />
+                            <Footer />
+                        </>
+                    } />
+                </Routes>
+
+                {/* <Routes>
                     <Route path="/regions" element={<Regions />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/news" element={<News />} />
-                </Routes>
+                </Routes> */}
 
-                <Footer />
             </div>
 
         </Router>

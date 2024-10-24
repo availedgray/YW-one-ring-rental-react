@@ -17,7 +17,7 @@ function FeaturedProperties(){
                                 <h3>{item.title}</h3>
                                 <span className="location">{item.location}</span>
                             </a>
-                            <img src="http://placehold.it/760x670" alt="" />
+                            <img src="https://placehold.it/760x670" alt="" />
                         </div>
                         <div className="price">
                             <span>${item.price}</span>
